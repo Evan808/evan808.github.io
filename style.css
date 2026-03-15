@@ -200,9 +200,10 @@ section p {
 /* POLAROID GRID */
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   margin-top: 1.5rem;
+  width: 100%;
 }
 
 .polaroid {
