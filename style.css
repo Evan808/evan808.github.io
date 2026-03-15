@@ -116,7 +116,6 @@ nav ul li a.active { color: var(--cream); }
 /* MAIN LAYOUT */
 .page {
   max-width: 760px;
-  width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -197,10 +196,9 @@ section p {
 /* POLAROID GRID */
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-top: 1.5rem;
-  width: 100%;
 }
 
 .polaroid {
@@ -284,7 +282,7 @@ section p {
 .about-section {
   background: var(--maroon);
   color: var(--cream);
-  margin: 0 -2rem -0px;
+  margin: 0 -2rem;
   padding: 2.5rem 2rem;
 }
 
@@ -311,8 +309,6 @@ footer {
   font-size: 12px;
   letter-spacing: 0.06em;
   padding: 1.2rem 2rem;
-  position: sticky;
-  top: 100vh;
 }
 
 /* WORK PAGE */
