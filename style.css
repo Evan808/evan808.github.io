@@ -67,7 +67,7 @@ nav ul li a.active { color: var(--cream); }
 }
 
 .hero-inner {
-  max-width: 800px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
